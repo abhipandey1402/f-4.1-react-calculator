@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quattrocento&family=Ruda&display=swap');
+
+body{
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    max-width: 100%;
+    font-family: inter;
+}
+
+#calculator{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1vw;
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+
+#num1{
+    width: 20vw;
+    height: 3vw;
+    background-color: #000;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    font-size: 100%;
+    padding-left: 1vw;
+}
+
+#num2{
+    width: 20vw;
+    height: 3vw;
+    background-color: #000;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    font-size: 100%;
+    padding-left: 1vw;
+}
+
+#heading{
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#button{
+    display: flex;
+    gap: 1.5vw;
+}
+
+button{
+    width: 4vw;
+    height: 4vw;
+}
+
+#result{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
